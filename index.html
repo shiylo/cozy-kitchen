@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/лого.png">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__row">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-img">
+                        <img src="img/лого.png" alt="">
+                    </a>
+                    <div class="header__logo-text">
+                        Уютная <span>кухня</span>
+                    </div>
+                </div>
+                <ul class="header__menu">
+                    <a href="#" class="header__menu-link"><li>Меню</li></a>
+                    <a href="#booking-section" class="header__menu-link"><li>Бронирование</li></a>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+            <section class="kitchen">
+                <div class="kitchen__img">
+                    <img src="img/стол.jpg" alt="">
+                </div>
+                <h1 class="kitchen__title">
+                    Домашняя кухня в центре города
+                </h1>
+                <p class="kitchen__subtitle">
+                    Бронируйте стол онлайн — мы подготовим всё к вашему приходу.
+                </p>
+                <a href="#booking-section" class="kitchen__button">
+                    Забронировать стол
+                </a>
+                <p class="kitchen__subtitle-two">
+                   Нравится атмосфера? <a href="#booking-section">перейти к форме бронирования</a>
+                </p>
+            </section>
+
+
+<div class="carousel">
+
+    <div class="carousel-viewport">
+        <div class="carousel-container">
+        <div class="carousel-slide"><img src="img/макароны 2.jpg" alt="1"></div>
+        <div class="carousel-slide"><img src="img/кофе.jpg" alt="2"></div>
+        <div class="carousel-slide"><img src="img/шокол.jpg" alt="3"></div>
+        <div class="carousel-slide"><img src="img/заведение.jpg" alt="4"></div>
+        <div class="carousel-slide"><img src="img/салат.jpg" alt="5"></div>
+        <div class="carousel-slide"><img src="img/шашлык.jpg" alt="6"></div>
+        <div class="carousel-slide"><img src="img/хлеб.jpg" alt="7"></div>
+        <div class="carousel-slide"><img src="img/сок.jpg" alt="8"></div>
+        <div class="carousel-slide"><img src="img/тост.jpg" alt="9"></div>
+    </div>
+
+  </div>
+
+  <button class="nav-btn prev">
+    <svg width="24" height="24" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+  </button>
+
+  <button class="nav-btn next">
+    <svg width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  </button>
+
+  <div class="carousel-pagination"></div>
+</div>
+
+
+<div class="accordion">
+    <h3 class="accordion__title">
+        Частые вопросы
+    </h3>
+  <div class="accordion-item">
+    <div class="accordion-header">Часы работы</div>
+    <div class="accordion-content">
+      <p>Пн–Чт 10:00–22:00 · Пт–Сб 10:00–23:00 · Вс 11:00–21:00</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">Как добраться</div>
+    <div class="accordion-content">
+      <p>м. Тверская, 5 минут пешком. Вход со двора, домофон 42.</p>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <div class="accordion-header">Детям и особые пожелания</div>
+    <div class="accordion-content">
+      <p>Детское меню и стульчики. Сообщите об аллергиях в форме бронирования.</p>
+    </div>
+  </div>
+
+</div>
+
+
+<section class="booking" id="booking-section">
+  <div class="booking-card">
+    <h2 class="booking-title">Бронирование стола</h2>
+    <p class="booking-subtitle">Заполните поля — перезвоним для подтверждения.</p>
+
+    <form class="booking-form">
+      <div class="form-group">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname" name="surname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <button type="submit" class="btn-submit">Отправить</button>
+    </form>
+  </div>
+</section>
+
+<div class="modal">
+  <div class="modal__row">
+    <div class="modal__title">Заявка отправлена</div>
+    <div class="modal__text">Спасибо! Мы свяжемся с Вами в ближайшее время для подтверждения брони.</div>
+    <button class="modal__button">Закрыть</button>
+  </div>
+</div>
+
+</main>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
