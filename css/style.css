@@ -479,12 +479,12 @@ body {
 }
 .form-group input {
   border-radius: 10px;
-  border: 1px solid #2C2416;
+  border: 1px solid #D4CCC2
   margin: 10px 0;
   width: 100%;
   font-size: 14px;
   padding: 20px 10px;
-  background-color: #D4CCC2;
+  background-color: #FAF6F1
 }
 
 .btn-submit {
